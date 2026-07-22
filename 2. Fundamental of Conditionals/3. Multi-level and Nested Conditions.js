@@ -16,3 +16,23 @@ else if (bmi >= 25 && bmi < 30) {
 else {
     console.log(" Obese");
 }
+
+
+
+// Nested if-else Condition
+// Practise question 14
+const age = 19;
+const hasID = false;
+
+if (age>18){
+
+    if (hasID) {
+        console.log("Go for vote")
+    }
+    else {
+        console.log("Bring your ID Card")
+    }
+}
+else {
+    console.log("Not eligible to vote")
+}
