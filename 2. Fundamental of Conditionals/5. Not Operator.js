@@ -1,4 +1,4 @@
-// Practise question 16
+// Practise question 19
 const hasPermission = false;
 
 if (!hasPermission) {
@@ -6,7 +6,7 @@ if (!hasPermission) {
 }
 
 
-// Practise question 17
+// Practise question 20
 const isOnline = false;
 if (!isOnline) {
     console.log("User is offline")
