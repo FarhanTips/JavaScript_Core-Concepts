@@ -17,7 +17,7 @@ console.log("Final Price:",finalPrice+ " tk");
 
 
 
-console.log(condition ? valueIfTrue : valueIfFalse);
+// console.log(condition ? valueIfTrue : valueIfFalse);
 // Practise question 18
 const money = 100;
 console.log(money>1000 ? "Expensive" : "Affordable");
