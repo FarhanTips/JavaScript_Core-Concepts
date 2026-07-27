@@ -39,3 +39,25 @@ console.log(typeof str3);
 
 // split() = ভাঙে
 // join() = জোড়া লাগায়
+
+
+
+
+
+
+// Practice Task-1.2
+let name = "JavaScript"; 
+console.log(name.toLowerCase());
+name.toLowerCase();
+console.log(name);
+
+console.log(name.toUpperCase());
+
+
+
+let whitespacestr = "  hello there            ";
+console.log(whitespacestr);
+console.log(whitespacestr.trim());
+
+whitespacestr.trim();
+console.log(whitespacestr);
