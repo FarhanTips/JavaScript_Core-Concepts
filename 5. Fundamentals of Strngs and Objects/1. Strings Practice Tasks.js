@@ -72,6 +72,7 @@ let sentence = "Learning JavaScript is fun!";
 const word1 = sentence.slice(0, 8);
 console.log(word1);
 console.log(sentence.slice(-4));
+console.log(sentence.slice(-7, -1));
 
 
 
