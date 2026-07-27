@@ -19,3 +19,13 @@ const person = {
 for (const keys in person) {
     console.log(keys, person[keys]);
 }
+
+
+
+// Another way
+const keys2 = Object.keys(person);
+console.log(keys2)
+
+for (const i of keys2) {
+    console.log(i, person[i]);
+}
