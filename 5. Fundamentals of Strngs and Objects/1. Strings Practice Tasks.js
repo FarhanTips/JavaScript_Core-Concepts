@@ -45,7 +45,7 @@ console.log(typeof str3);
 
 
 
-// Practice Task-1.2
+// Practice Task-2.1
 let name = "JavaScript"; 
 console.log(name.toLowerCase());
 name.toLowerCase();
@@ -61,3 +61,30 @@ console.log(whitespacestr.trim());
 
 whitespacestr.trim();
 console.log(whitespacestr);
+
+
+
+
+
+// Practice Task-3.1
+// string.slice(start, end+1)
+let sentence = "Learning JavaScript is fun!"; 
+const word1 = sentence.slice(0, 8);
+console.log(word1);
+console.log(sentence.slice(-4));
+
+
+
+
+
+
+// Practice Task-3.2
+const h1 = "Hello";
+const h2 = "World";
+
+console.log(h1.concat(" ",h2, "!"," This is me."));
+
+
+let result = h1 + " " + h2+"! This is me.";
+
+console.log(result);
