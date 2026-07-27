@@ -15,3 +15,27 @@ console.log(arr[0]); // "h"
 // Array → mutable. Array-এর ভিতরের data পরিবর্তন করা যায়:
 arr.push("!");
 console.log(arr);
+
+
+
+
+
+
+// Practice Task-1.2
+let str2 = "JavaScript";
+
+let arr2 = str2.split("");
+
+console.log(arr2);
+
+let arr3 = ["c", "a", "t"];
+
+let str3 = arr3.join("");
+
+console.log(str3);
+console.log(typeof str3);
+
+
+
+// split() = ভাঙে
+// join() = জোড়া লাগায়
