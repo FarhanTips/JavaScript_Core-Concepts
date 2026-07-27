@@ -7,7 +7,7 @@ for (const number of numbers) {
 
 
 
-
+// object traversal by loop (for-in)
 const person = {
     name: "Farhan",
     age: 25,
@@ -15,3 +15,7 @@ const person = {
     "home address": "Purana Paltan Line, Dhaka",
     "father:name": "Sazzad"
 };
+
+for (const keys in person) {
+    console.log(keys, person[keys]);
+}
