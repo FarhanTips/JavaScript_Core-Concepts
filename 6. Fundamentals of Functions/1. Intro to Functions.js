@@ -19,3 +19,12 @@ console.log("46 is an "+checkEvenOdd(46)+" number.");
 
 
 
+
+
+
+function chowdhuryfy(name){
+    return name+" Chowdhury";
+}
+
+const out = chowdhuryfy("Robin");
+console.log(out);
