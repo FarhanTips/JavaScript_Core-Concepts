@@ -14,7 +14,7 @@ function findMaxMin(array){
         }
     }
 
-    return [max, min];  //এখানে [max, min] নতুন array তৈরি করছে, কিন্তু তুমি সেটাকে কোনো variable-এ store করছো না। তাই let, const এর দরকার নাই।
+    return [max, min];  //এখানে [max, min] নতুন array তৈরি করছে, কিন্তু তুমি সেটাকে কোনো variable-এ store করছো না। তাই let, const এর দরকার নাই। এখানে array বানিয়ে সরাসরি return করা হচ্ছে, তাই const/let লাগছে না। নতুন কোনো জিনিসকে নাম দিয়ে রাখতে চাইলে → let/const use করতে হয়। শুধু তৈরি করে সরাসরি use/return করলে → let/const লাগে না।
 }
 
 console.log(findMaxMin([12, 6, 7, 1, 65, 2, 98, 22]));
