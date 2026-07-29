@@ -22,4 +22,8 @@ console.log(checkPalindrome("I love Bangladesh"));
 console.log(checkPalindrome("madam"));
 console.log(checkPalindrome("civic"));
 
+console.log(checkPalindrome("laal"));
+console.log(checkPalindrome("sense"));
+console.log(checkPalindrome("deed"));
+
 
