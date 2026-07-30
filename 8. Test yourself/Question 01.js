@@ -22,4 +22,6 @@ console.log(matchWinner("3",2));
 console.log(matchWinner(7,2));
 console.log(matchWinner(1,4));
 console.log(matchWinner(1,true));
+console.log(matchWinner(null,3));
+console.log(matchWinner(0,0));
 
