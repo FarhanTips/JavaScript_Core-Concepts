@@ -17,4 +17,9 @@ function matchWinner(teamAGoals, teamBGoals) {
   }
 }
 
+console.log(matchWinner(2,2));
 console.log(matchWinner("3",2));
+console.log(matchWinner(7,2));
+console.log(matchWinner(1,4));
+console.log(matchWinner(1,true));
+
