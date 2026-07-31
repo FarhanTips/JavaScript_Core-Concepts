@@ -30,3 +30,23 @@ function productOfDigits(num) {
   
 console.log(productOfDigits(123));  // Expected: 6 
 console.log(productOfDigits(4040)); // Expected: 0
+
+
+
+
+
+
+// Task 13-3B: Odd Numbers Up To N 
+function getOddNumbers(n) { 
+    let odds = []; 
+    for (let i = 1; i <= n; i++){
+        if (i % 2 !== 0){
+            odds.push(i);
+        }
+    }
+    return odds;
+} 
+
+
+console.log(getOddNumbers(20)); 
+// Expected: [1, 3, 5, 7, 9] 
