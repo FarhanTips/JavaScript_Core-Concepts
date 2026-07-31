@@ -13,3 +13,20 @@ function reverseNumber(num) {
   
 console.log(reverseNumber(1234)); // Expected: 4321 
 console.log(reverseNumber(7));    // Expected: 7 
+
+
+
+// Task 13-3A: Product of Digits 
+
+function productOfDigits(num) { 
+  let str = num.toString(); 
+  let total = 1; 
+  for (let i = str.length-1; i >= 0 ; i--) {
+    total *= Number(str[i]);
+  }
+  
+  return total; 
+} 
+  
+console.log(productOfDigits(123));  // Expected: 6 
+console.log(productOfDigits(4040)); // Expected: 0
